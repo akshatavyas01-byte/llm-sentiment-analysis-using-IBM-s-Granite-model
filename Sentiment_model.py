@@ -11,8 +11,8 @@ from langchain_core.prompts import PromptTemplate
 # MODEL CREATION
 
 model_id = "ibm/granite-4-h-small"
-project_id = "skills-network"  # required for IBM Cloud usage
-url = "https://us-south.ml.cloud.ibm.com"
+project_id = "YOUR_PROJECT_ID"  # required for IBM Cloud usage
+url = "YOUR_URL"
 
 params = {
     "max_new_tokens": 200,
